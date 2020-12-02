@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <title>Development</title>
+</head>
+
+<body>
+
+  <!-- <div id="title" class="container-fluid bg-white py-5"> -->
+  <div class="d-flex flex-column justify-content-center align-items-center bg-white py-5">
+    <h1 class="title display-3 mx-5 mb-5 pb-2"><b>Development</b></h1>
+    <img src="img/div.png" alt="text divider" class="mb-5" style="width: 3.5rem; height: 1rem;">
+    <h3 class="subtitle text-center">Creating a React web application that helps students at Brown explore course options & navigate their academic schedule</h3>
+    <div class="inner mt-3">
+      <a style="text-decoration:none" href="https://dry-gorge-87869.herokuapp.com/" target="_blank" class="text-light btn-lg mt-3 link-btn">View App</a> 
+      <a style="text-decoration:none" href="https://github.com/bfishy/development-react" target="_blank" class="btn-lg btn-outline-secondary mt-3 ml-3 btn-outline">
+        <img src="svg/github.svg" class="icon ml-0 mr-2" alt="github icon">GitHub</a> 
+    </div>
+  </div>
+  <div class="d-flex flex-column blankets"></div>
+
+  <div id="overview" class="container-fluid bg-white text-center py-5">
+    <h3 class="pb-5 display-5">Application Overview</h3>
+    <img src="img/div_alt.png" alt="text divider" class="mb-5" style="width: 3.5rem; height: 1rem;">
+    <h3 class="pb-5 display-4 font-weight-normal">Course Explorer</h3>
+    <img src="img/div_alt.png" alt="text divider" class="my-3" style="margin: auto; width: 3.5rem; height: 1rem;">
+    <div class="container blurb text-left mt-3">
+      <h2><b>Goal & Usage</b></h2>
+      <hr>
+      <p class="lead ma-5">
+        <b>Course Explorer</b> is not just another course listing website. Instead, it focuses on providing data on courses that might influence a student's choice of academic schedule, such as required time committment and whether it fulfills the WRIT requirement, etc.
+      </p>
+      <p class="lead ma-5">
+        It allows students to <u>sort</u> and <u>filter</u> on attributes they like: <br>
+        If a student prefers courses with an in-person component, the option to filter on <b>Instuction Mode</b> could become helpful; <br>
+        If a student is looking for a course with lighter workload, sorting from low to high on <b>Avg. Time Committment</b> is a great way to start.
+      </p>
+      <p class="lead ma-5">
+        In other words, the types of information it shows is much closer to that of a course review website, such as The Critical Review at Brown, than a course registrar. While not currently implemented, 
+        the application can also be extended so that the information is directly scraped from The Critical Review instead.
+      </p>
+    </div>
+    <div class="container blurb text-left mt-5">
+      <h2><b>Usability Principles</b></h2>
+      <hr>
+      <div class="mt-3 pt-2">
+        <h3><b>Learnability: </b></h3>
+        <p class="lead ma-5">
+          The app utilizes lots of affodances to give clues to new users as to how to navigate the application. For example, most of the buttons have a vivid shade of color, 
+          which sets it apart from the "non-interactable" text.
+        </p>
+        <p class="lead ma-5">
+          The navigation bar with buttons for filters & sorting orders also has a slight shade of grey as its background color that makes it stand out from the rest of the app. It also happens to be the place where most user interaction takes place, thus making it 
+          easier to navigate even for first-time users, as most of the buttons/actions are all grouped together in one area.
+        </p>
+      </div>
+      <div class="mt-3 pt-2">
+        <h3><b>Efficiency & Memorability: </b></h3>
+        <p class="lead ma-5">
+          The application has a intuitive layout, with a view of the courses & the conditions to be applied to the view (e.g. filters) on one side, and the course cart 
+          on the other. When a user adds a course to their cart, they can immediately see it appear on the right, which offers a quick confirmation as a reponse to their action.
+        </p>
+        <p class="lead ma-5">
+          It also has great memorability both due to the ease of completing desired tasks on the interface, as well as the fact that most people are already familiar to the idea of 
+          picking an item and placing it into a cart (whether it is a physical cart or an online shopping cart).
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-white text-center py-3">
+    <div class="container">
+      <hr>
+      <p class="mb-0">
+        made in 25.0330° N, 121.5654° E
+      </p>
+    </div>
+  </footer>
+  
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
